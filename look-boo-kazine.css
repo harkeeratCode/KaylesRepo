@@ -850,3 +850,6 @@
     margin-bottom: var(--dl-space-space-unit);
   }
 }
+.cart-action{
+  text-align: center;
+}
