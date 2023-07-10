@@ -1,0 +1,97 @@
+a=int(input("enter degree of expression(max-2)="))
+b="x"
+if a==1:
+    c=float(input("enter cofficient 1="))
+    d=float(input("enter cofficient 2="))
+    e=str(c)+b
+    if c>0:
+        if d>0:
+            print("the expression formed is=",e,"+",d)
+        elif d<0:
+            print("the expression formed is=",e,d)
+        elif d==0:
+            print("the expression formed is=",e)
+    elif c<0:
+        if d>0:
+            print("the expression formed is=",e,"+",d)
+        elif d<0:
+            print("the expression formed is=",e,d)
+        elif d==0:
+            print("the expression formed is=",e)
+    elif c==0:
+            print("the expression formed is=",d)
+if a==2:
+    c=float(input("enter cofficient 1="))
+    d=float(input("enter cofficient 2="))
+    z=float(input("enter cofficient 3="))
+    y="x^2"
+    f= str(c)+y
+    e=str(d)+b
+    if c>0:
+        if d>0:
+            if z>0:
+                print("the expression formed is=",f,"+",e,"+",z)
+            elif z<0:
+                print("the expression formed is=",f,"+",d,z)
+            elif z==0:
+                print("the expression formed is=",f,"+",d)
+        elif d<0:
+            if z>0:
+                print("the expression formed is=",f,e,"+",z)
+            elif z<0:
+                print("the expression formed is=",f,d,z)
+            elif z==0:
+                print("the expression formed is=",f,d)
+        elif d==0:
+            if z>0:
+                print("the expression formed is=",f,"+",z)
+            elif z<0:
+                print("the expression formed is=",f,z)
+            elif z==0:
+                print("the expression formed is=",f)
+    elif c<0:
+        if d>0:
+            if z>0:
+                print("the expression formed is=",f,"+",e,"+",z)
+            elif z<0:
+                print("the expression formed is=",f,"+",d,z)
+            elif z==0:
+                print("the expression formed is=",f,"+",d)
+        elif d<0:
+            if z>0:
+                print("the expression formed is=",f,e,"+",z)
+            elif z<0:
+                print("the expression formed is=",f,d,z)
+            elif z==0:
+                print("the expression formed is=",f,d)
+        elif d==0:
+            if z>0:
+                print("the expression formed is=",f,"+",z)
+            elif z<0:
+                print("the expression formed is=",f,z)
+            elif z==0:
+                print("the expression formed is=",f)
+    if c==0:
+        if d>0:
+            if z>0:
+                print("the expression formed is=",e,"+",z)
+            elif z<0:
+                print("the expression formed is=",d,z)
+            elif z==0:
+                print("the expression formed is=",d)
+        elif d<0:
+            if z>0:
+                print("the expression formed is=",e,"+",z)
+            elif z<0:
+                print("the expression formed is=",d,z)
+            elif z==0:
+                print("the expression formed is=",d)
+        elif d==0:
+            if z>0:
+                print("the expression formed is=",z)
+            elif z<0:
+                print("the expression formed is=",z)
+            elif z==0:
+                print("the expression formed is=0")
+else:
+    print("please enter valid degree")
